@@ -67,8 +67,7 @@ variable "aws_security_group_nginx_sg_egress_to_port" {
 variable "aws_instance_nginx1_instance_type" {
   type        = string
   description = "The type of computer to use for the instance"
-  default     = "t3.micro"
-
+  default     = "t2.micro"
 }
 
 variable "company" {
